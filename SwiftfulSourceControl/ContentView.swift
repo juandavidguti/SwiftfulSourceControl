@@ -43,8 +43,8 @@ struct ContentView: View {
             Image(systemName: "house.fill")
                 .font(.largeTitle)
                 .foregroundStyle(.tint)
-            Text("My Soul App!")
-            Button("Subscribe now") {
+            Text("SomeTitle")
+            Button("Click me!") {
                 
             }
             
