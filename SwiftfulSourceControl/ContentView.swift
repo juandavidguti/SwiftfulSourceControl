@@ -40,15 +40,13 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            Image(systemName: "house.fill")
-                .font(.largeTitle)
-                .foregroundStyle(.tint)
-            Text("My Soul App!")
-            Button("Subscribe now") {
-                
+            ScrollView {
+                VStack {
+                    ForEach(0..<20) { _ in
+                        Text("yo!")
+                    }
+                }
             }
-            
-            Rectangle()
         }
         .padding()
     }
