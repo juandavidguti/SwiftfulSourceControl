@@ -13,7 +13,11 @@ struct ProfileView: View {
     
     var body: some View {
         Text("JuanDavid")
+            .onAppear {
+                
+            }
     }
+    
 }
 
 #Preview {
