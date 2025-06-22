@@ -48,13 +48,14 @@ struct ContentView: View {
                             .foregroundStyle(.tint)
                         Text("SomeTitle")
                         Button("Click me!") {
-            
+                            
+                        }
                     }
+                    
                 }
-                
             }
+            .padding()
         }
-        .padding()
     }
 }
 
